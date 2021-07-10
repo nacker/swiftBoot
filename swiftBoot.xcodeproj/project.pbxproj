@@ -17,6 +17,8 @@
 		620BD7092699A60500F255C0 /* UIBarButtonItem+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620BD7082699A60500F255C0 /* UIBarButtonItem+Extension.swift */; };
 		620BD70B2699A73A00F255C0 /* NSDate+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620BD70A2699A73A00F255C0 /* NSDate+Extension.swift */; };
 		620BD70E2699A7F900F255C0 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620BD70D2699A7F900F255C0 /* Common.swift */; };
+		620BD7162699AD0900F255C0 /* MYTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620BD7152699AD0900F255C0 /* MYTabBarController.swift */; };
+		620BD7182699AD3400F255C0 /* MYAboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620BD7172699AD3400F255C0 /* MYAboutViewController.swift */; };
 		B14953C5F8AD51316A0F0319 /* Pods_swiftBoot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05B861A62626B8E448916E0A /* Pods_swiftBoot.framework */; };
 		E9ECC69C6BD9CD5D44A2D605 /* Pods_swiftBoot_swiftBootUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C31F50C2EEA719A31E5533C /* Pods_swiftBoot_swiftBootUITests.framework */; };
 /* End PBXBuildFile section */
@@ -58,6 +60,8 @@
 		620BD7082699A60500F255C0 /* UIBarButtonItem+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+Extension.swift"; sourceTree = "<group>"; };
 		620BD70A2699A73A00F255C0 /* NSDate+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSDate+Extension.swift"; sourceTree = "<group>"; };
 		620BD70D2699A7F900F255C0 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		620BD7152699AD0900F255C0 /* MYTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MYTabBarController.swift; sourceTree = "<group>"; };
+		620BD7172699AD3400F255C0 /* MYAboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MYAboutViewController.swift; sourceTree = "<group>"; };
 		70AD1CD26677EE73D9712B09 /* Pods-swiftBoot-swiftBootUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftBoot-swiftBootUITests.debug.xcconfig"; path = "Target Support Files/Pods-swiftBoot-swiftBootUITests/Pods-swiftBoot-swiftBootUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		7CF9BDCDAED5CD68373803CF /* Pods-swiftBoot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftBoot.debug.xcconfig"; path = "Target Support Files/Pods-swiftBoot/Pods-swiftBoot.debug.xcconfig"; sourceTree = "<group>"; };
 		8A350E81B9E08E0F87528BF5 /* Pods-swiftBoot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftBoot.release.xcconfig"; path = "Target Support Files/Pods-swiftBoot/Pods-swiftBoot.release.xcconfig"; sourceTree = "<group>"; };
@@ -172,6 +176,7 @@
 		620BD7052699A54200F255C0 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				620BD70F2699ACA700F255C0 /* Modules */,
 				620BD7062699A54D00F255C0 /* Other */,
 			);
 			path = Classes;
@@ -201,6 +206,55 @@
 				620BD70D2699A7F900F255C0 /* Common.swift */,
 			);
 			path = Constant;
+			sourceTree = "<group>";
+		};
+		620BD70F2699ACA700F255C0 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				620BD7142699ACE000F255C0 /* Main */,
+				620BD7132699ACD400F255C0 /* UIKit */,
+				620BD7122699ACCD00F255C0 /* Lab */,
+				620BD7112699ACC600F255C0 /* Components */,
+				620BD7102699ACBC00F255C0 /* About */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		620BD7102699ACBC00F255C0 /* About */ = {
+			isa = PBXGroup;
+			children = (
+				620BD7172699AD3400F255C0 /* MYAboutViewController.swift */,
+			);
+			path = About;
+			sourceTree = "<group>";
+		};
+		620BD7112699ACC600F255C0 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		620BD7122699ACCD00F255C0 /* Lab */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Lab;
+			sourceTree = "<group>";
+		};
+		620BD7132699ACD400F255C0 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		620BD7142699ACE000F255C0 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				620BD7152699AD0900F255C0 /* MYTabBarController.swift */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -445,6 +499,8 @@
 				620BD6DA26998ECC00F255C0 /* ViewController.swift in Sources */,
 				620BD70E2699A7F900F255C0 /* Common.swift in Sources */,
 				620BD6D626998ECC00F255C0 /* AppDelegate.swift in Sources */,
+				620BD7162699AD0900F255C0 /* MYTabBarController.swift in Sources */,
+				620BD7182699AD3400F255C0 /* MYAboutViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
