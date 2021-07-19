@@ -12,7 +12,7 @@ pod 'Kingfisher', '6.3.0' #图片库
 pod 'SnapKit', '5.0.1' #布局
 #pod 'RxSwift', '6.2.0'
 #pod 'RxCocoa', '6.2.0'
-
+pod 'DoSwift' # 工具
 
   target 'swiftBootTests' do
     inherit! :search_paths
