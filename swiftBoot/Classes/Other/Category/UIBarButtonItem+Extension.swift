@@ -25,7 +25,7 @@ extension UIBarButtonItem
         btn.addTarget(target, action: action, for: .touchUpInside)
         
         btn.sizeToFit()
-        
+        // 实例化 UIBarButtonItem
         self.init(customView: btn)
     }
 }

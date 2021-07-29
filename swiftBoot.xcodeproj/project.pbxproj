@@ -22,6 +22,17 @@
 		62D825DA26B236A6006E4CEB /* MYTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D825D926B236A6006E4CEB /* MYTabBar.swift */; };
 		62D825DC26B236FC006E4CEB /* Deivices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D825DB26B236FC006E4CEB /* Deivices.swift */; };
 		62D825DE26B2378A006E4CEB /* MYNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D825DD26B2378A006E4CEB /* MYNavigationController.swift */; };
+		62D825E026B24921006E4CEB /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D825DF26B24921006E4CEB /* UIColor+Extension.swift */; };
+		62D8260526B277AF006E4CEB /* MYDiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D8260426B277AF006E4CEB /* MYDiscoverViewController.swift */; };
+		62D8260726B277D8006E4CEB /* MYChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D8260626B277D8006E4CEB /* MYChatViewController.swift */; };
+		62D8260926B277F9006E4CEB /* MYConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D8260826B277F9006E4CEB /* MYConversationViewController.swift */; };
+		62D8260C26B27821006E4CEB /* MYMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D8260B26B27821006E4CEB /* MYMeViewController.swift */; };
+		62D8261826B2B732006E4CEB /* NSObject+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D8261726B2B732006E4CEB /* NSObject+Extensions.swift */; };
+		62D8261A26B2B754006E4CEB /* Bundle+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D8261926B2B754006E4CEB /* Bundle+Extension.swift */; };
+		62D8261F26B2B7AB006E4CEB /* MYTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D8261D26B2B7AB006E4CEB /* MYTestViewController.m */; };
+		62D8262026B2B7AB006E4CEB /* MYTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62D8261E26B2B7AB006E4CEB /* MYTestViewController.xib */; };
+		62D8262326B2B7C6006E4CEB /* NSArray+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D8262126B2B7C6006E4CEB /* NSArray+Log.m */; };
+		62D8262626B2BA4F006E4CEB /* MYHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D8262526B2BA4F006E4CEB /* MYHomeViewController.swift */; };
 		B14953C5F8AD51316A0F0319 /* Pods_swiftBoot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05B861A62626B8E448916E0A /* Pods_swiftBoot.framework */; };
 		E9ECC69C6BD9CD5D44A2D605 /* Pods_swiftBoot_swiftBootUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C31F50C2EEA719A31E5533C /* Pods_swiftBoot_swiftBootUITests.framework */; };
 /* End PBXBuildFile section */
@@ -68,6 +79,20 @@
 		62D825D926B236A6006E4CEB /* MYTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MYTabBar.swift; sourceTree = "<group>"; };
 		62D825DB26B236FC006E4CEB /* Deivices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deivices.swift; sourceTree = "<group>"; };
 		62D825DD26B2378A006E4CEB /* MYNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MYNavigationController.swift; sourceTree = "<group>"; };
+		62D825DF26B24921006E4CEB /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		62D8260426B277AF006E4CEB /* MYDiscoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MYDiscoverViewController.swift; sourceTree = "<group>"; };
+		62D8260626B277D8006E4CEB /* MYChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MYChatViewController.swift; sourceTree = "<group>"; };
+		62D8260826B277F9006E4CEB /* MYConversationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MYConversationViewController.swift; sourceTree = "<group>"; };
+		62D8260B26B27821006E4CEB /* MYMeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MYMeViewController.swift; sourceTree = "<group>"; };
+		62D8261726B2B732006E4CEB /* NSObject+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+Extensions.swift"; sourceTree = "<group>"; };
+		62D8261926B2B754006E4CEB /* Bundle+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Extension.swift"; sourceTree = "<group>"; };
+		62D8261B26B2B7AA006E4CEB /* swiftBoot-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "swiftBoot-Bridging-Header.h"; sourceTree = "<group>"; };
+		62D8261C26B2B7AB006E4CEB /* MYTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MYTestViewController.h; sourceTree = "<group>"; };
+		62D8261D26B2B7AB006E4CEB /* MYTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MYTestViewController.m; sourceTree = "<group>"; };
+		62D8261E26B2B7AB006E4CEB /* MYTestViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MYTestViewController.xib; sourceTree = "<group>"; };
+		62D8262126B2B7C6006E4CEB /* NSArray+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Log.m"; sourceTree = "<group>"; };
+		62D8262226B2B7C6006E4CEB /* NSArray+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Log.h"; sourceTree = "<group>"; };
+		62D8262526B2BA4F006E4CEB /* MYHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MYHomeViewController.swift; sourceTree = "<group>"; };
 		70AD1CD26677EE73D9712B09 /* Pods-swiftBoot-swiftBootUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftBoot-swiftBootUITests.debug.xcconfig"; path = "Target Support Files/Pods-swiftBoot-swiftBootUITests/Pods-swiftBoot-swiftBootUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		7CF9BDCDAED5CD68373803CF /* Pods-swiftBoot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftBoot.debug.xcconfig"; path = "Target Support Files/Pods-swiftBoot/Pods-swiftBoot.debug.xcconfig"; sourceTree = "<group>"; };
 		8A350E81B9E08E0F87528BF5 /* Pods-swiftBoot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftBoot.release.xcconfig"; path = "Target Support Files/Pods-swiftBoot/Pods-swiftBoot.release.xcconfig"; sourceTree = "<group>"; };
@@ -184,6 +209,10 @@
 			children = (
 				620BD70F2699ACA700F255C0 /* Modules */,
 				620BD7062699A54D00F255C0 /* Other */,
+				62D8261C26B2B7AB006E4CEB /* MYTestViewController.h */,
+				62D8261D26B2B7AB006E4CEB /* MYTestViewController.m */,
+				62D8261E26B2B7AB006E4CEB /* MYTestViewController.xib */,
+				62D8261B26B2B7AA006E4CEB /* swiftBoot-Bridging-Header.h */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -191,6 +220,7 @@
 		620BD7062699A54D00F255C0 /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				62D825E126B24A83006E4CEB /* Custom */,
 				620BD70C2699A7EA00F255C0 /* Constant */,
 				620BD7072699A57500F255C0 /* Category */,
 			);
@@ -203,6 +233,11 @@
 				620BD7082699A60500F255C0 /* UIBarButtonItem+Extension.swift */,
 				620BD70A2699A73A00F255C0 /* NSDate+Extension.swift */,
 				62D825DB26B236FC006E4CEB /* Deivices.swift */,
+				62D825DF26B24921006E4CEB /* UIColor+Extension.swift */,
+				62D8261726B2B732006E4CEB /* NSObject+Extensions.swift */,
+				62D8261926B2B754006E4CEB /* Bundle+Extension.swift */,
+				62D8262226B2B7C6006E4CEB /* NSArray+Log.h */,
+				62D8262126B2B7C6006E4CEB /* NSArray+Log.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -218,10 +253,12 @@
 		620BD70F2699ACA700F255C0 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				62D8262426B2BA31006E4CEB /* Home */,
+				62D8260126B2775F006E4CEB /* Chat */,
+				62D8260226B2778A006E4CEB /* Conversation */,
+				62D8260326B27795006E4CEB /* Discover */,
+				62D8260A26B2780E006E4CEB /* Me */,
 				620BD7142699ACE000F255C0 /* Main */,
-				620BD7132699ACD400F255C0 /* UIKit */,
-				620BD7122699ACCD00F255C0 /* Lab */,
-				620BD7112699ACC600F255C0 /* Components */,
 				620BD7102699ACBC00F255C0 /* About */,
 			);
 			path = Modules;
@@ -235,27 +272,6 @@
 			path = About;
 			sourceTree = "<group>";
 		};
-		620BD7112699ACC600F255C0 /* Components */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Components;
-			sourceTree = "<group>";
-		};
-		620BD7122699ACCD00F255C0 /* Lab */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Lab;
-			sourceTree = "<group>";
-		};
-		620BD7132699ACD400F255C0 /* UIKit */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = UIKit;
-			sourceTree = "<group>";
-		};
 		620BD7142699ACE000F255C0 /* Main */ = {
 			isa = PBXGroup;
 			children = (
@@ -264,6 +280,53 @@
 				62D825DD26B2378A006E4CEB /* MYNavigationController.swift */,
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		62D825E126B24A83006E4CEB /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		62D8260126B2775F006E4CEB /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				62D8260626B277D8006E4CEB /* MYChatViewController.swift */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		62D8260226B2778A006E4CEB /* Conversation */ = {
+			isa = PBXGroup;
+			children = (
+				62D8260826B277F9006E4CEB /* MYConversationViewController.swift */,
+			);
+			path = Conversation;
+			sourceTree = "<group>";
+		};
+		62D8260326B27795006E4CEB /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				62D8260426B277AF006E4CEB /* MYDiscoverViewController.swift */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		62D8260A26B2780E006E4CEB /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				62D8260B26B27821006E4CEB /* MYMeViewController.swift */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		62D8262426B2BA31006E4CEB /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				62D8262526B2BA4F006E4CEB /* MYHomeViewController.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -338,6 +401,7 @@
 				TargetAttributes = {
 					620BD6D126998ECC00F255C0 = {
 						CreatedOnToolsVersion = 12.5.1;
+						LastSwiftMigration = 1250;
 					};
 					620BD6E726998ED100F255C0 = {
 						CreatedOnToolsVersion = 12.5.1;
@@ -374,6 +438,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62D8262026B2B7AB006E4CEB /* MYTestViewController.xib in Resources */,
 				620BD6E226998ED100F255C0 /* LaunchScreen.storyboard in Resources */,
 				620BD6DF26998ED100F255C0 /* Assets.xcassets in Resources */,
 			);
@@ -504,13 +569,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				620BD70B2699A73A00F255C0 /* NSDate+Extension.swift in Sources */,
+				62D8261A26B2B754006E4CEB /* Bundle+Extension.swift in Sources */,
+				62D8260526B277AF006E4CEB /* MYDiscoverViewController.swift in Sources */,
 				620BD7092699A60500F255C0 /* UIBarButtonItem+Extension.swift in Sources */,
+				62D8261F26B2B7AB006E4CEB /* MYTestViewController.m in Sources */,
 				620BD6DA26998ECC00F255C0 /* ViewController.swift in Sources */,
+				62D825E026B24921006E4CEB /* UIColor+Extension.swift in Sources */,
 				62D825DA26B236A6006E4CEB /* MYTabBar.swift in Sources */,
+				62D8260726B277D8006E4CEB /* MYChatViewController.swift in Sources */,
+				62D8262326B2B7C6006E4CEB /* NSArray+Log.m in Sources */,
+				62D8261826B2B732006E4CEB /* NSObject+Extensions.swift in Sources */,
 				620BD70E2699A7F900F255C0 /* Common.swift in Sources */,
 				62D825DE26B2378A006E4CEB /* MYNavigationController.swift in Sources */,
 				620BD6D626998ECC00F255C0 /* AppDelegate.swift in Sources */,
 				620BD7162699AD0900F255C0 /* MYTabBarController.swift in Sources */,
+				62D8262626B2BA4F006E4CEB /* MYHomeViewController.swift in Sources */,
+				62D8260926B277F9006E4CEB /* MYConversationViewController.swift in Sources */,
+				62D8260C26B27821006E4CEB /* MYMeViewController.swift in Sources */,
 				62D825DC26B236FC006E4CEB /* Deivices.swift in Sources */,
 				620BD7182699AD3400F255C0 /* MYAboutViewController.swift in Sources */,
 			);
@@ -681,6 +756,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = swiftBoot/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -690,6 +766,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.devlei.swiftBoot;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "swiftBoot/Classes/swiftBoot-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -701,6 +779,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = swiftBoot/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -710,6 +789,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.devlei.swiftBoot;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "swiftBoot/Classes/swiftBoot-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
