@@ -19,7 +19,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.backgroundColor = .white
         
         // 2.设置窗口根控制器
-        window?.rootViewController = ViewController()
+        let tabBarVC = MYTabBarController()
+        window?.rootViewController = tabBarVC
         
         // 3.显示窗口
         window?.makeKeyAndVisible()
