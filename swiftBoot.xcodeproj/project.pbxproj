@@ -19,6 +19,7 @@
 		620BD70E2699A7F900F255C0 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620BD70D2699A7F900F255C0 /* Common.swift */; };
 		620BD7162699AD0900F255C0 /* MYTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620BD7152699AD0900F255C0 /* MYTabBarController.swift */; };
 		620BD7182699AD3400F255C0 /* MYAboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620BD7172699AD3400F255C0 /* MYAboutViewController.swift */; };
+		62B5BDBE27EDFD4100D96EE1 /* FilePCH.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B5BDBD27EDFD4100D96EE1 /* FilePCH.swift */; };
 		62D825DA26B236A6006E4CEB /* MYTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D825D926B236A6006E4CEB /* MYTabBar.swift */; };
 		62D825DC26B236FC006E4CEB /* Deivices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D825DB26B236FC006E4CEB /* Deivices.swift */; };
 		62D825DE26B2378A006E4CEB /* MYNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D825DD26B2378A006E4CEB /* MYNavigationController.swift */; };
@@ -33,6 +34,8 @@
 		62D8262026B2B7AB006E4CEB /* MYTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62D8261E26B2B7AB006E4CEB /* MYTestViewController.xib */; };
 		62D8262326B2B7C6006E4CEB /* NSArray+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D8262126B2B7C6006E4CEB /* NSArray+Log.m */; };
 		62D8262626B2BA4F006E4CEB /* MYHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D8262526B2BA4F006E4CEB /* MYHomeViewController.swift */; };
+		62F9A49927FB721900FB45B9 /* MYWelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F9A49727FB721900FB45B9 /* MYWelcomeViewController.swift */; };
+		62F9A49A27FB721900FB45B9 /* MYWelcomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62F9A49827FB721900FB45B9 /* MYWelcomeViewController.xib */; };
 		B14953C5F8AD51316A0F0319 /* Pods_swiftBoot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05B861A62626B8E448916E0A /* Pods_swiftBoot.framework */; };
 		E9ECC69C6BD9CD5D44A2D605 /* Pods_swiftBoot_swiftBootUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C31F50C2EEA719A31E5533C /* Pods_swiftBoot_swiftBootUITests.framework */; };
 /* End PBXBuildFile section */
@@ -76,6 +79,7 @@
 		620BD70D2699A7F900F255C0 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 		620BD7152699AD0900F255C0 /* MYTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MYTabBarController.swift; sourceTree = "<group>"; };
 		620BD7172699AD3400F255C0 /* MYAboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MYAboutViewController.swift; sourceTree = "<group>"; };
+		62B5BDBD27EDFD4100D96EE1 /* FilePCH.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilePCH.swift; sourceTree = "<group>"; };
 		62D825D926B236A6006E4CEB /* MYTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MYTabBar.swift; sourceTree = "<group>"; };
 		62D825DB26B236FC006E4CEB /* Deivices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deivices.swift; sourceTree = "<group>"; };
 		62D825DD26B2378A006E4CEB /* MYNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MYNavigationController.swift; sourceTree = "<group>"; };
@@ -93,6 +97,8 @@
 		62D8262126B2B7C6006E4CEB /* NSArray+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Log.m"; sourceTree = "<group>"; };
 		62D8262226B2B7C6006E4CEB /* NSArray+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Log.h"; sourceTree = "<group>"; };
 		62D8262526B2BA4F006E4CEB /* MYHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MYHomeViewController.swift; sourceTree = "<group>"; };
+		62F9A49727FB721900FB45B9 /* MYWelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MYWelcomeViewController.swift; sourceTree = "<group>"; };
+		62F9A49827FB721900FB45B9 /* MYWelcomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MYWelcomeViewController.xib; sourceTree = "<group>"; };
 		70AD1CD26677EE73D9712B09 /* Pods-swiftBoot-swiftBootUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftBoot-swiftBootUITests.debug.xcconfig"; path = "Target Support Files/Pods-swiftBoot-swiftBootUITests/Pods-swiftBoot-swiftBootUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		7CF9BDCDAED5CD68373803CF /* Pods-swiftBoot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftBoot.debug.xcconfig"; path = "Target Support Files/Pods-swiftBoot/Pods-swiftBoot.debug.xcconfig"; sourceTree = "<group>"; };
 		8A350E81B9E08E0F87528BF5 /* Pods-swiftBoot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftBoot.release.xcconfig"; path = "Target Support Files/Pods-swiftBoot/Pods-swiftBoot.release.xcconfig"; sourceTree = "<group>"; };
@@ -213,6 +219,7 @@
 				62D8261D26B2B7AB006E4CEB /* MYTestViewController.m */,
 				62D8261E26B2B7AB006E4CEB /* MYTestViewController.xib */,
 				62D8261B26B2B7AA006E4CEB /* swiftBoot-Bridging-Header.h */,
+				62B5BDBD27EDFD4100D96EE1 /* FilePCH.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -220,6 +227,7 @@
 		620BD7062699A54D00F255C0 /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				626DC05527EDDD0700352D2E /* Lib */,
 				62D825E126B24A83006E4CEB /* Custom */,
 				620BD70C2699A7EA00F255C0 /* Constant */,
 				620BD7072699A57500F255C0 /* Category */,
@@ -253,6 +261,7 @@
 		620BD70F2699ACA700F255C0 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				62F9A49627FB71ED00FB45B9 /* Welcome */,
 				62D8262426B2BA31006E4CEB /* Home */,
 				62D8260126B2775F006E4CEB /* Chat */,
 				62D8260226B2778A006E4CEB /* Conversation */,
@@ -280,6 +289,13 @@
 				62D825DD26B2378A006E4CEB /* MYNavigationController.swift */,
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		626DC05527EDDD0700352D2E /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Lib;
 			sourceTree = "<group>";
 		};
 		62D825E126B24A83006E4CEB /* Custom */ = {
@@ -327,6 +343,15 @@
 				62D8262526B2BA4F006E4CEB /* MYHomeViewController.swift */,
 			);
 			path = Home;
+			sourceTree = "<group>";
+		};
+		62F9A49627FB71ED00FB45B9 /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				62F9A49727FB721900FB45B9 /* MYWelcomeViewController.swift */,
+				62F9A49827FB721900FB45B9 /* MYWelcomeViewController.xib */,
+			);
+			path = Welcome;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -439,6 +464,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				62D8262026B2B7AB006E4CEB /* MYTestViewController.xib in Resources */,
+				62F9A49A27FB721900FB45B9 /* MYWelcomeViewController.xib in Resources */,
 				620BD6E226998ED100F255C0 /* LaunchScreen.storyboard in Resources */,
 				620BD6DF26998ED100F255C0 /* Assets.xcassets in Resources */,
 			);
@@ -583,11 +609,13 @@
 				62D825DE26B2378A006E4CEB /* MYNavigationController.swift in Sources */,
 				620BD6D626998ECC00F255C0 /* AppDelegate.swift in Sources */,
 				620BD7162699AD0900F255C0 /* MYTabBarController.swift in Sources */,
+				62B5BDBE27EDFD4100D96EE1 /* FilePCH.swift in Sources */,
 				62D8262626B2BA4F006E4CEB /* MYHomeViewController.swift in Sources */,
 				62D8260926B277F9006E4CEB /* MYConversationViewController.swift in Sources */,
 				62D8260C26B27821006E4CEB /* MYMeViewController.swift in Sources */,
 				62D825DC26B236FC006E4CEB /* Deivices.swift in Sources */,
 				620BD7182699AD3400F255C0 /* MYAboutViewController.swift in Sources */,
+				62F9A49927FB721900FB45B9 /* MYWelcomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -758,6 +786,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = swiftBoot/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -781,6 +810,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = swiftBoot/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (

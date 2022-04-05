@@ -15,7 +15,7 @@ pod 'SnapKit', '5.0.1' #布局
 pod 'DoSwift' # 工具
 pod 'KakaJSON', '~> 1.1.2'
 
-pod 'TimedSilver', '1.2.0'
+#pod 'TimedSilver', '1.2.0'
 
 
 pod 'ObjectMapper', '~> 3.4'
@@ -47,7 +47,7 @@ pod 'JKSwiftExtension'
 pod 'YYExtentions'
 
 
-pod 'EasyKits'
+#pod 'EasyKits'
 
 
 pod 'SwiftlyCache' # 缓存库
@@ -55,7 +55,7 @@ pod 'SwiftlyCache' # 缓存库
 # UI
 pod 'EachNavigationBar' # navBar
 pod "ESTabBarController-swift" # TabBar
-pod 'FSCycleScrollView' # 轮播
+#pod 'FSCycleScrollView' # 轮播
 
 #Objective-C
 #pod 'INTULocationManager', '4.3.2' #定位服务
